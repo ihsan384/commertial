@@ -52,7 +52,7 @@ export function AdminSidebar() {
           </div>
           <div>
             <p className="text-sm font-semibold text-white">Admin User</p>
-            <p className="text-xs text-white/45">admin@luxewear.com</p>
+            <p className="text-xs text-white/45">admin@luxewear.in</p>
           </div>
         </div>
       </div>

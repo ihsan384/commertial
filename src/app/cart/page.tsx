@@ -193,7 +193,7 @@ export default function CartPage() {
             </article>
           ))}
 
-          {subtotal < 150 ? (
+          {subtotal < 12000 ? (
             <div className="surface-card rounded-[2rem] p-5">
               <div className="mb-3 flex items-center justify-between gap-4">
                 <div className="flex items-center gap-3">
@@ -213,7 +213,7 @@ export default function CartPage() {
               <div className="h-2 overflow-hidden rounded-full bg-[var(--background-strong)]">
                 <div
                   className="h-full rounded-full bg-[var(--accent)] transition-all duration-500"
-                  style={{ width: `${Math.min((subtotal / 150) * 100, 100)}%` }}
+                  style={{ width: `${Math.min((subtotal / 12000) * 100, 100)}%` }}
                 />
               </div>
             </div>

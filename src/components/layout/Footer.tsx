@@ -71,27 +71,38 @@ export function Footer() {
             <div className="mt-6 space-y-3 text-sm text-white/70">
               <div className="flex items-center gap-3">
                 <Mail size={15} className="text-[var(--accent)]" />
-                concierge@luxewear.com
+                contact@luxewear.in
               </div>
               <div className="flex items-center gap-3">
                 <MapPin size={15} className="text-[var(--accent)]" />
-                New York, Los Angeles, online worldwide
+                <div>
+                  <div>Luxe Wear</div>
+                  <div>MG Road, Kochi, Kerala - 682011</div>
+                  <div>India</div>
+                </div>
+              </div>
+              <div className="flex items-center gap-3">
+                <span className="text-[var(--accent)] font-semibold">📞</span>
+                +91 98765 43210
               </div>
             </div>
 
             <div className="mt-6 flex gap-3">
               {[
-                { label: 'World', icon: Globe },
-                { label: 'Media', icon: Play },
-                { label: 'Share', icon: Share2 },
-              ].map(({ label, icon: Icon }) => (
-                <button
+                { label: 'Instagram', icon: Globe, href: 'https://instagram.com/luxewear.in' },
+                { label: 'Facebook', icon: Play, href: 'https://facebook.com/luxewear.in' },
+                { label: 'Twitter', icon: Share2, href: 'https://twitter.com/luxewear_in' },
+              ].map(({ label, icon: Icon, href }) => (
+                <a
                   key={label}
-                  type="button"
+                  href={href}
+                  target="_blank"
+                  rel="noopener noreferrer"
                   className="icon-button border-white/10 bg-white/[0.08] text-white hover:bg-white hover:text-[var(--foreground)]"
+                  aria-label={`Follow us on ${label}`}
                 >
                   <Icon size={16} />
-                </button>
+                </a>
               ))}
             </div>
           </div>

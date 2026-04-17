@@ -10,7 +10,7 @@
       { "productId": "5", "name": "Essential Oversized Hoodie", "quantity": 1, "price": 7199 }
     ],
     "total": 15197,
-    "address": "123 Oak Street, New York, NY 10001"
+    "address": "123 MG Road, Kochi, Kerala - 682011, India"
   },
   {
     "id": "ORD-002",
@@ -23,7 +23,7 @@
       { "productId": "4", "name": "Silk Slip Midi Dress", "quantity": 1, "price": 10399 }
     ],
     "total": 25598,
-    "address": "456 Maple Ave, Los Angeles, CA 90001"
+    "address": "456 Banerji Road, Kolkata, West Bengal - 700001, India"
   },
   {
     "id": "ORD-003",
@@ -36,7 +36,7 @@
       { "productId": "6", "name": "Tactical Cargo Trousers", "quantity": 1, "price": 9599 }
     ],
     "total": 22398,
-    "address": "789 Pine Rd, Chicago, IL 60601"
+    "address": "789 Brigade Road, Bangalore, Karnataka - 560001, India"
   },
   {
     "id": "ORD-004",
@@ -48,7 +48,7 @@
       { "productId": "7", "name": "Camel Wool Overcoat", "quantity": 1, "price": 27999 }
     ],
     "total": 27999,
-    "address": "321 Elm Blvd, Miami, FL 33101"
+    "address": "321 Residency Road, Chennai, Tamil Nadu - 600001, India"
   },
   {
     "id": "ORD-005",
@@ -57,11 +57,11 @@
     "date": "2026-04-17",
     "status": "Pending",
     "items": [
-      { "productId": "8", "name": "Minimalist Leather Sneakers", "quantity": 1, "price": 219.99 },
-      { "productId": "1", "name": "Essential Black Tee", "quantity": 3, "price": 49.99 }
+      { "productId": "8", "name": "Minimalist Leather Sneakers", "quantity": 1, "price": 17599 },
+      { "productId": "1", "name": "Essential Black Tee", "quantity": 3, "price": 3999 }
     ],
-    "total": 369.96,
-    "address": "654 Cedar Lane, Seattle, WA 98101"
+    "total": 29595,
+    "address": "654 Park Street, Hyderabad, Telangana - 500001, India"
   },
   {
     "id": "ORD-006",
@@ -70,11 +70,11 @@
     "date": "2026-04-13",
     "status": "Delivered",
     "items": [
-      { "productId": "9", "name": "Ribbed Knit Turtleneck", "quantity": 2, "price": 79.99 },
-      { "productId": "12", "name": "Satin Wrap Blouse", "quantity": 1, "price": 69.99 }
+      { "productId": "9", "name": "Ribbed Knit Turtleneck", "quantity": 2, "price": 6399 },
+      { "productId": "12", "name": "Satin Wrap Blouse", "quantity": 1, "price": 5599 }
     ],
-    "total": 229.97,
-    "address": "987 Birch Way, Boston, MA 02101"
+    "total": 18397,
+    "address": "987 Connaught Place, New Delhi, Delhi - 110001, India"
   },
   {
     "id": "ORD-007",
@@ -83,10 +83,10 @@
     "date": "2026-04-12",
     "status": "Shipped",
     "items": [
-      { "productId": "11", "name": "Relaxed Oxford Shirt", "quantity": 2, "price": 99.99 }
+      { "productId": "11", "name": "Relaxed Oxford Shirt", "quantity": 2, "price": 7999 }
     ],
-    "total": 199.98,
-    "address": "147 Walnut Dr, Houston, TX 77001"
+    "total": 15998,
+    "address": "147 MG Road, Pune, Maharashtra - 411001, India"
   },
   {
     "id": "ORD-008",
@@ -95,10 +95,10 @@
     "date": "2026-04-11",
     "status": "Delivered",
     "items": [
-      { "productId": "10", "name": "Wide Leg Trousers", "quantity": 1, "price": 109.99 },
-      { "productId": "4", "name": "Silk Slip Midi Dress", "quantity": 1, "price": 129.99 }
+      { "productId": "10", "name": "Wide Leg Trousers", "quantity": 1, "price": 8799 },
+      { "productId": "4", "name": "Silk Slip Midi Dress", "quantity": 1, "price": 10399 }
     ],
-    "total": 239.98,
-    "address": "258 Spruce Court, Phoenix, AZ 85001"
+    "total": 19198,
+    "address": "258 Brigade Road, Bangalore, Karnataka - 560025, India"
   }
 ]
