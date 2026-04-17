@@ -1,7 +1,9 @@
-const currencyFormatter = new Intl.NumberFormat('en-US', {
+import { formatPrice } from './formatPrice';
+
+const currencyFormatter = new Intl.NumberFormat('en-IN', {
   style: 'currency',
-  currency: 'USD',
-  maximumFractionDigits: 2,
+  currency: 'INR',
+  maximumFractionDigits: 0,
 });
 
 const dateFormatter = new Intl.DateTimeFormat('en-US', {
@@ -11,7 +13,7 @@ const dateFormatter = new Intl.DateTimeFormat('en-US', {
 });
 
 export function formatCurrency(value: number) {
-  return currencyFormatter.format(value);
+  return formatPrice(value);
 }
 
 export function formatDate(value: string) {

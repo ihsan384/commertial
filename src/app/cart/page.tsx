@@ -23,7 +23,7 @@ export default function CartPage() {
   const [orderNumber] = useState(() => `#LW-${Math.floor(Math.random() * 90000 + 10000)}`);
 
   const subtotal = getTotalPrice();
-  const shipping = subtotal >= 150 ? 0 : 12.99;
+  const shipping = subtotal >= 12000 ? 0 : 999;
   const tax = subtotal * 0.08;
   const total = subtotal + shipping + tax;
   const totalItems = useMemo(
@@ -202,7 +202,7 @@ export default function CartPage() {
                   </div>
                   <div>
                     <p className="text-sm font-semibold text-[var(--foreground)]">
-                      Add {formatCurrency(150 - subtotal)} more for free shipping
+                      Add {formatCurrency(12000 - subtotal)} more for free shipping
                     </p>
                     <p className="text-sm text-[var(--muted)]">
                       You are close to complimentary delivery.

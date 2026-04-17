@@ -129,6 +129,11 @@ export function Footer() {
           </div>
         </div>
       </div>
+
+      {/* Footer Badge */}
+      <div className="border-t border-white/10 py-4 text-center text-sm text-gray-400">
+        🚀 Designed & Developed by <span className="font-semibold text-white">Ihsan</span>
+      </div>
     </footer>
   );
 }
